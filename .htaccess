@@ -5,4 +5,10 @@ RewriteRule ^(.*)$ $1.html
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
+#Force www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^reggieforcongress.com [NC]
+RewriteRule ^(.*)$ http://www.reggieforcongress.com/$1 [L,R=301,NC]
+
+
 ErrorDocument 404 /404.php
