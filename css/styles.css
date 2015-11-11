@@ -1,0 +1,236 @@
+/*
+ * Base Layout
+ */
+html { font-size: 100%; }
+body {
+	color: #222;
+	font-size: 1.2em;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	line-height: 1.5;
+}
+#wrapper {
+	margin: 0 auto;
+	margin-bottom: -50px;
+	background-color: #e8e9ec;
+}
+
+hr {
+	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #FEFEFE;
+}
+
+/*
+ * Typography
+ */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+h1 { font-size: 2.6rem; }
+h2 { font-size: 2.2rem; }
+h3 { font-size: 2.0rem; }
+h4 { font-size: 1.8rem; }
+h5 { font-size: 1.6rem; }
+h6 { font-size: 1.4rem; }
+p, li { font-size: 1.4rem; font-weight: 400; }
+  .site-nav li { font-size: 1em; }
+
+/*
+ * Links & Buttons
+ */
+
+/*
+ * Header & Nav
+ */
+.logo span { display: none; }
+.logo a {
+	display: block;
+	width: 185px;
+	height: 100px;
+	background: transparent url('../img/reggie-for-kansas-logo.png') left top no-repeat;
+}
+#page-nav {
+	margin-bottom: 1em;
+	background: transparent url('../img/us-flag-bw.jpg') top center no-repeat;
+	background-size: cover;
+}
+	#page-nav nav {
+		min-height: 140px;
+		padding-top: 20px;
+		background-color: rgba(1,171,233,.8);
+		/* Alt red background-color: rgba(245,75,26,.8);*/
+	}
+	#hero nav {
+		min-height: 140px;
+		padding-top: 20px;
+		background-color: rgba(1,171,233,.5);
+	}
+	.site-nav a {
+		margin-top: 15px;
+		color: #fff;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-weight: 400;
+	}
+	.site-nav a:hover {
+		color: #1b346c;
+		text-decoration: underline;
+	}
+	.button-custom {
+		position: relative;
+		top: -3px;
+		padding: .2em .7em .3em .7em;
+		background: transparent none;
+		border: 1px solid #fff;
+		border-radius: 3px !important;
+	}
+	a.button-custom:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+	.inline-list { float: right; }
+nav ul li { display: inline; }
+
+/*
+ * Hero Image, Vertical Centering
+ */
+#hero {
+	height: 595px;
+	min-height: 595px;
+	background: url('../img/us-capitol.jpg') top center no-repeat;
+	background-size: cover;
+}
+	#hero .big { font-size: 49px; }
+	#hero .bigger { font-size: 80px; }
+	#hero .bump-right { position: relative; right:-130px; }
+	#hero .bump-left { position: relative; left: -30px; top: -8px; }
+	#hero h1 {
+		position: relative;
+		top: -20px;
+		margin: 0;
+		font: italic 4em 'Libre Baskerville';
+		line-height: 1.1;
+		color: #1b346c;
+	}
+	.v-wrapper-out {
+		display: table;
+		width: 100%;
+		background-color: rgba(255,255,255,.5);
+	}
+	.v-wrapper-in {
+		height: 455px;
+		display: table-cell;
+		vertical-align: middle;
+		text-align:center;
+	}
+
+/*
+ * Body
+ */
+ .primary {
+   min-height: 400px;
+ }
+
+ .title {
+ 	margin-bottom: .5em;
+ 	padding-bottom: .2em;
+ 	border-bottom: 1px solid #c3ced0;
+ 	}
+
+.page-title {
+	font-weight: 600;
+}
+#signup {
+	background: url('../img/us-flag-final.jpg') top center no-repeat;
+	background-size: cover;
+	margin: 0 0 1.5em 0;
+	padding: 1.5em 0;
+	color: #fff;
+}
+	#signup input {
+		margin-bottom: 0;
+	}
+	#signup h2 {
+		margin: 0;
+		line-height: 1;
+		color: #fff;
+	}
+	#signup .button-custom {
+		display: block;
+		padding: .4em 1em;
+		font-size: 1em;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-weight: 300;
+	}
+	#signup .button-custom:hover {
+		background-color: rgba(85, 14, 8,.6);
+	}
+
+/*
+ * Sidebar
+ */
+
+.sidebar h4 { font-size: 1.3em; }
+.sidebar p { font-size: .8em; }
+
+/*
+ * Footer
+ */
+.footer-wrap {
+	margin-top: 40px;
+	background-color: rgba(15, 114, 223,.62);
+}
+.footer-inner {
+	position: relative;
+	top: -20px;
+	margin-bottom: -20px;
+	padding: 20px;
+	text-align: center;
+	background-color: #0f72df;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.paid-for {
+	margin: 2em 0 1em 0;
+	color: #fff;
+	font-size: .8em;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+	.paid-for span {
+		padding: .5em;
+		border: 1px solid #fff;
+		border-radius: 2px;
+		box-shadow: 0 1px 1px rgba(0,0,0,.2);
+	}
+
+@media only screen and (max-width: 40.063em) { /* Medium screens and below */
+	.logo a { margin: 0 auto; }
+	#signup h2, #signup input { margin-bottom: 1em; }
+	#hero {
+		height: 545px;
+		min-height: 545px;
+	}
+	.v-wrapper-out {
+		background-color: rgba(255,255,255,.7);
+	}
+	#hero h1 {
+		position: relative;
+		top: -90px;
+		margin: 0;
+		font: italic 4em 'Libre Baskerville';
+		line-height: .7;
+		color: #1b346c;
+	}
+	#hero .big { font-size: 30px; }
+	#hero .bigger { font-size: 45px; }
+	#hero .bump-right { position: relative; right: -45px; }
+	#hero .bump-left { position: relative; left: -10px; top: -10px; }
+	h1 { font-size: 1.9rem; }
+	h2 { font-size: 1.7rem; }
+	h3 { font-size: 1.5rem; }
+	h4 { font-size: 1.4rem; }
+	h5 { font-size: 1.3rem; }
+	h6 { font-size: 1.2rem; }
+	p, li { font-size: 1.1rem; font-weight: 400; }
+		.site-nav li { font-size: 1em; }
+}
