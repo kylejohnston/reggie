@@ -50,10 +50,11 @@
 
 			<div class="row">
 				<div class="large-12 columns">
-					<h1>Why I’m Running</h1>
-					<p>I believe our representatives are bound by oath and honor to ensure everyone in their district can easily access the federal government to address their issues. No one is sent to a legislative body to be an instrument of obstruction and domination.</p>
-					<p>As a representative, I will always be willing to hear and respond to the needs and issues of the citizens of Kansas' 3rd district. Shutting anyone out of the process violates democracy. Our republic is diminished when only the powerful have a voice.</p>
-					<p>My motivation comes from the last line in the Pledge of Allegiance, &ldquo;And Justice For All&rdquo;. I am part of the &ldquo;ALL&rdquo; and so are the people of the Kansas 3rd Congressional District. And we want justice!</p>
+					<h1>Why I&rsquo;m Running</h1>
+					<p>What Is Done Today Lays A Foundation For What Can Be Done Tomorrow.</p>
+					<p>The U. S. House of Representatives is intended to preserve, protect, and defend the Constitution of the United States. It is a body of legislators that has the responsibility of ensuring that laws, expenditures and operations of the federal government serves the citizens of the nation. It is supposed to see that all are treated justly.</p>
+					<p>That is my motivation for wanting to be the representative from the 3rd Congressional District of the state of Kansas. I want to see that Congress provides, nurtures and protects the rights, protections, and assistance of the federal government for the benefit and &ldquo;Justice for All.&rdquo;</p>
+					<p>The people are due these regardless of their circumstances, preferences, heritage, beliefs or culture. I will serve everyone.</p>
 				</div>
 			</div>
 
