@@ -8,7 +8,6 @@
 								<li><a href="meet-reggie-marselus">Meet Reggie</a></li>
 								<li><a href="on-the-issues">On the Issues</a></li>
 								<li><a href="get-involved">Get Involved</a></li>
-								<li><a href="donate" class="button round button-custom">Contribute</a></li>
 							</ul>
 						</div>
 					</div>
