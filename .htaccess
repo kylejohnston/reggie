@@ -10,5 +10,6 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^reggieforcongress.com [NC]
 RewriteRule ^(.*)$ http://www.reggieforcongress.com/$1 [L,R=301,NC]
 
-
 ErrorDocument 404 /404.php
+
+Redirect 301 /donate http://www.reggieforcongress.com/
